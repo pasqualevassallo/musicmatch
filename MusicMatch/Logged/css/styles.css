@@ -1,0 +1,148 @@
+body {
+    font-family: 'Helvetica Neue', Arial, sans-serif;
+    background-color: #f0f4f8;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: linear-gradient(135deg, #c6ddff, #ffcac5); /* Aggiungi sfumature pastello */
+    padding: 20px 40px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar .logo {
+    font-size: 28px;
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+.navbar .menu {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.navbar .menu a {
+    color: #2c3e50;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.navbar .menu a:hover {
+    color: #3498db;
+    text-decoration: underline;
+}
+
+/* Aggiungi stili per la selezione della categoria */
+#categoria {
+    font-size: 16px;
+    padding: 8px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+}
+
+/* Stili per il link "Area Personale" */
+.navbar .profile {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.navbar .profile a {
+    font-size: 16px;
+    font-weight: 500;
+    color: #3498db;
+    text-decoration: none;
+}
+
+.navbar .profile a:hover {
+    text-decoration: underline;
+}
+
+main {
+    padding: 40px;
+}
+
+h1 {
+    font-size: 26px;
+    color: #2c3e50;
+    margin-bottom: 20px;
+}
+
+.lessons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.lesson {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 20px;
+    width: calc(33.333% - 20px);
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.lesson:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 12px rgba(0, 0, 0, 0.15);
+}
+
+.lesson p {
+    font-size: 16px;
+    color: #555;
+    margin: 5px 0;
+}
+
+.lesson a {
+    display: inline-block;
+    margin-top: 10px;
+    color: #3498db;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.lesson a:hover {
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffffff;
+    border-top: 1px solid #ddd;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #555;
+}
+
+/* Stile comune per i menu a discesa */
+.custom-select {
+    width: 200px; /* Imposta una larghezza comune per i menu a discesa */
+    padding: 10px;
+    border-radius: 4px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+    font-size: 16px;
+    color: #333;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.custom-select option {
+    padding: 10px;
+    background-color: #fff;
+    color: #333;
+}
+

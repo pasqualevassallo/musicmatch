@@ -1,0 +1,127 @@
+/* Reset margini e padding */
+body, h1, h2, h3, h4, h5, h6, p, ul, ol, li, form, input, button {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    color: #333;
+}
+
+/* Sfondo generale */
+body {
+    background: linear-gradient(135deg, #E3FDFD, #FFE6FA);
+    background-size: cover;
+    background-attachment: fixed;
+    font-size: 16px;
+    line-height: 1.6;
+}
+
+/* Header */
+header {
+    background: linear-gradient(135deg, #c6ddff, #ffcac5);
+    color: #fff;
+    padding: 1.5rem 2rem;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+    letter-spacing: 1px;
+}
+
+header p {
+    font-size: 1.2rem;
+    margin-bottom: 0;
+    font-weight: 300;
+}
+
+/* Card */
+.card {
+    border-radius: 15px;
+    border: none;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #FFFFFF, #F3F4F6);
+    margin-bottom: 2rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15);
+}
+
+.card-header {
+    background: #ffcac5;
+    color: #fff;
+    border-radius: 15px 15px 0 0;
+    padding: 1.5rem;
+    font-size: 1.25rem;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 600;
+    text-align: center;
+}
+
+.card-body {
+    padding: 2rem;
+}
+
+/* Bottoni */
+.btn-primary {
+    background-color: #ffcac5;
+    border: none;
+    border-radius: 30px;
+    padding: 0.75rem 2rem;
+    font-size: 1rem;
+    color: #333;  /* Testo del bottone in colore scuro */
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.btn-primary:hover {
+    background-color: #97b8eb;
+    transform: translateY(-2px);
+}
+
+/* Link */
+a {
+    color: #FF6F61;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+a:hover {
+    color: #79abf6;
+    text-decoration: underline;
+}
+
+/* Form */
+.form-group {
+    margin-bottom: 1.5rem;
+}
+
+.form-control {
+    border-radius: 15px;
+    border: 1px solid #73a6dc;
+    padding: 0.75rem;
+    transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.form-control:focus {
+    border-color: #FF6F61;
+    box-shadow: 0 0 0 0.2rem rgba(255, 111, 97, 0.25);
+}
+
+/* Small text */
+.form-text {
+    font-size: 0.875rem;
+    color: #718096;
+}
+
+/* Specific Field Visibility */
+.hidden {
+    display: none;
+}
